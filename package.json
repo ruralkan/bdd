@@ -1,0 +1,17 @@
+{
+  "name": "helloCucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node --inspect=1337 --debug-brk --nolazy node_modules/cucumber/bin/cucumber-js --tags @debug --format json:./reports/report.json",
+    "test": "cucumber-js",
+    "test-report": "./node_modules/.bin/cucumber-js.cmd --format json:./reports/report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^5.1.0"
+  }
+}
